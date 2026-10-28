@@ -29,5 +29,12 @@ namespace Proyecto_prueba
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		
+		void Button1Click(object sender, EventArgs e)
+		{
+			Form1 lst = new Form1();
+			this.Hide();
+			lst.Show();
+		}
 	}
 }
